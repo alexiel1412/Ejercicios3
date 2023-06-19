@@ -13,6 +13,7 @@ public class Ej3_1
 		{
 			System.out.println(num + " * " + i + " = " + num * i);
 		}
+		teclado.close();
 	}
 
 }

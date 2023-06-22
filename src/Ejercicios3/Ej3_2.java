@@ -2,12 +2,12 @@ package Ejercicios3;
 
 import java.util.Scanner;
 
-public class Ej3_1
+public class Ej3_2
 {
 	public static void main(String[] args)
 	{
 		Scanner teclado = new Scanner (System.in);
-		
+		int i = 1;
 		System.out.println("Introduzca el número a calcular:");
 		int num = teclado.nextInt();
 		
@@ -17,9 +17,10 @@ public class Ej3_1
 			num = teclado.nextInt();
 		}
 		
-		for (int i = 1; i <= 10; i++)
+		while (i <= 10)
 		{
 			System.out.println(num + " * " + i + " = " + num * i);
+			i++;
 		}
 		teclado.close();
 	}
